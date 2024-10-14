@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widgetLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:padding="0dp"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+        android:id="@+id/widgetIconImageView"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_thunderstorm"/>
+
+    <TextView
+        android:id="@+id/widgetTemperatureTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--°C"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
