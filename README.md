@@ -1,5 +1,3 @@
-## Weather App - README
-
 ### Overview
 This project is a weather app for Android, designed to display weather conditions for the current and future days, manage favorite locations, and interact with location data through custom widgets. Users can view forecasts, save their preferred locations, and detect or manually enter coordinates.
 
